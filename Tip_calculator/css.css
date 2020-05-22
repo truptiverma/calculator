@@ -1,0 +1,86 @@
+body{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient(-90deg,rgba(0, 0, 0, 0.952),rgba(255, 0, 0, 0.973));
+}
+
+#Container{
+    height: 550px ;
+    width: 300px;
+    margin: auto;
+    background-color: white;
+    border-radius: 20px;
+}
+
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding:12px;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+}
+
+p{padding-left:20px;}
+
+form input[type="text"] {
+    width: 90px;
+  }
+
+#serviceQuality{
+    padding: 13px 13px 20px 20px;
+    margin-left:20px;
+    font-size: medium;
+}
+
+button{
+    color: white;
+    margin: 0px 20px 20px 20px;
+    background-color: maroon;
+    padding-left: 20px;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+}
+
+button:hover{
+    color: white;
+    background-color: black;
+}
+
+button:active{
+    position: relative;
+    top: 1px;
+}
+
+#CalculateButton{
+  padding-left: 20px;
+  text-align: center;
+}
+
+/* #Calculate:before {
+    content: "Tip amount";
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+  } */
+
+  #Calculate sup {
+    font-size: 20px;
+    top: -18px;
+  }
+  
+  #Calculate small {
+    font-size: 10px;
+    font-weight: bold;
+    display: block;
+  }
+
+  #Calculate {
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+    display: none;
+  }
